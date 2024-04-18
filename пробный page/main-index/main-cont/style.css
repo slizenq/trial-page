@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    color: #FDFDFD;
+    min-width: 1440px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    color: #FDFDFD;
+}
+
+a, ul {
+    text-decoration: none;
+    color: #FDFDFD;
+    padding: 0px;
+    height: 1px;
+}
+
+.back-main {
+    background-color: #10B582;
+    width: auto;
+    height: 951px;
+}
+
+.container {
+    max-width: 751px;
+}
+
+a.social::before {
+    opacity: .3;
+    color: red;
+}
+
+.nav-bar-active {
+    border-bottom: 2px dashed #FA9F42;  
+    padding-bottom: 2px;   
+}
+
+.nav-bar-background {
+    max-width: 751px;
+    margin: -20px auto 0px;
+    padding-top: 40px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 544px;
+    height: 420px;
+    margin-top: 212px ;
+    position: relative;
+    z-index: 1;
+}
+
+.course {
+    font-size: 58px;
+    line-height: 120%;
+    width: 542px;
+    height: 140px;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    line-height: 150%;
+    font-size: 16px;
+    font-weight: 400;
+    width: 390px;
+    margin-left: 72px;
+    margin-top: -30px;
+}
+
+.sumbit {
+    display: flex;
+    max-width: 230px;
+    height: 56px;
+    background-color: #FA9F42;
+    margin-left: 155px;
+    margin-top: 55px;
+    align-items: center;
+    border-radius: 0px 20px;
+    justify-content: center;
+    vertical-align: middle;
+    transition: 0.2s;
+}
+
+.sumbit-orange:hover {
+    background-color: #f39434;
+}
+
+.sumbit-green:hover {
+    background-color: #2fa37e;
+}
+
+.sumbit-orange:active {
+    background-color: #f08922;
+}
+
+.sumbit-green:active {
+    background-color: #308167;
+}
+
+.logo {
+    margin-left: 185px;
+    max-width: 170px;
+}
+
+.block:hover {
+    transition: 1s;
+    margin-top: 60px;
+}
+
+.position-content {
+    position: relative;
+    z-index: 0;
+    margin: 0px auto;
+    width: 1250px;
+    height: 750px;
+    margin-top: -550px;
+    display: flex;
+    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: 1000px 300px;
+    grid-template-areas: "flex-content female_2"
+                         "female_1 scroll";
+}
+
+.flex-content {
+    grid-area: flex-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.female_1 {
+    grid-area: female_1;
+    margin-bottom: 120px;
+}
+
+.female_2 {
+    grid-area: female_2;
+}
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    grid-area: scroll;
+    transform: rotate(-90deg);
+    padding-left: 70px;
+    padding-top: 330px; 
+    font-size: 14px;    
+}
+
+.jakor {
+    width: 1440px;
+    height: 800px;
+    position: relative;
+    bottom: 800px;
+    z-index: 1;
+}
+
+.teacher {
+    width: 1440px;
+    height: 951px;
+    margin: 0px auto;
+    border: 1px solid #FDFDFD;
+}
+
+.number {
+    color: #10B582;
+    font-size: 65px;
+    font-weight: 500;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-right: 160px;
+}
+
+li.number:nth-child(4) {
+    margin-right: 0;
+}
+
+.numbers {
+    margin: 0px auto;
+    margin-top: 120px;
+    width: 1300px;
+    height: 190px;
+    padding-left: 90px;
+}
+
+.depiction {
+    color: #353A5A;
+    font-size: 14px;
+    line-height: 120%;
+    width: 1400px;
+    height: 40px;
+    margin-left: -90px;
+    display: flex;
+    text-align: center;
+    padding-left: 50px;
+    margin-top: -22px;
+}
+
+.list_1 {
+    margin-right: 156px;
+}
+
+.list_2 {
+    margin-right: 120px;
+}
+
+.list_3 {
+    margin-right: 135px;
+}
+
+.zagolov {
+    color: #353A5A;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 100%;
+    height: 15px;
+    margin-top: 0px;
+}
+
+.sumbit-teach {
+    display: flex;
+    max-width: 230px;
+    height: 56px;
+    background-color: #10B582;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 0px 20px;
+    justify-content: center;
+    vertical-align: middle;
+    transition: 0.2s;
+}
+
+.teachers {
+    position: relative;
+    display: grid;
+    width: 500px;
+    height: 356px;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+.zag_2 {
+    color: #353A5A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    height: 145px;
+}
+
+.grid-flex-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sket4 {
+    color: #353A5A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: end;
+    
+}
+
+.photo {
+    position: relative;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    row-gap: 25px;
+    max-width: 570px;
+    left: 750px;
+    bottom: 400px;
+    justify-items: end;
+}
+
+.photo_j {
+    border-radius: 0px 120px 0px 0px;
+    position: relative;
+    width: 470px;
+    height: 332px;
+    z-index: 4;
+    bottom: 25px;
+    left: 165px;
+}
+
+
+.proxy {
+    max-width: 1400px;
+    height: 500px;
+    margin: 0px auto;
+    position: relative;
+    top: 65px;
+}
+
+.photo_j_ {
+    position: relative;
+    rotate: 90deg;
+    width: 332px;
+    height: 470px;
+    z-index: 1;
+    right: 200px;
+}
+
+.proxy-content {
+    position: relative;
+    left: -50px
+}
+
+.grid-flex {
+    position: relative;
+    bottom: 410px;
+    left: 800px
+}
+
+.sumbit-napr {
+    display: flex;
+    max-width: 230px;
+    height: 56px;
+    background-color: #FA9F42;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 0px 20px;
+    justify-content: center;
+    vertical-align: middle;
+    transition: 0.2s;
+    margin-top: 50px;
+}
+
+.grid-flex {
+    width: 480px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    left: 750px;
+}
+
+.zagolov__1 {
+    font-weight: 400;
+    font-size: 55px;
+    font-style: normal;
+    line-height: 120%;
+    margin: 0px;
+    height: 180px;
+}
+
+.zag__2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: left;
+    margin: 0px;
+}
+
+.form-study {
+    width: auto;
+    height: 652px;
+    background-color: #10B582;
+}
+
+.popular_course {
+    width: auto;
+    height: 702px;
+}
+
+.popular_course_block {
+    width: 1440px;
+    height: 702px;
+    margin: 0px auto;
+    z-index: 7;
+    position: relative;
+}
+
+.tag {
+    color: #353A5A;
+    position: relative;
+    top: 50px;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 100%;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.target {
+    height: 300px;
+    width: 1190px;
+    margin: 0px auto;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    justify-content: center;
+}
+
+.block {
+    display: flex;
+    width: 270px;
+    height: 226px;
+    background: #FDFDFD;
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+    border-radius: 10px;
+    align-items: end;
+    margin-top: 35px;
+    justify-content: start;
+}
+
+.text-color {
+    color: #353A5A;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.sumbit-course {  
+    position: relative;
+    top: 100px;  
+    display: flex;
+    max-width: 230px;
+    height: 56px;
+    background-color: #10B582;
+    align-items: center;
+    border-radius: 0px 20px;
+    justify-content: center;
+    vertical-align: middle;
+    transition: 0.2s;
+    margin: 0px auto;
+}
+
+.text-block {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    width: 240px;
+    height: 50px;
+}
+
+.mentor {
+    width: 100%;
+    height: 698px;
+    margin: 0px auto;
+    background-image: url(../figma/photo.png);
+    background-repeat: no-repeat;
+    background-color: #f9f8f7;
+    background-size: 100% 100%;
+}
+
+.mentor-count {
+    width: 508px;
+    height: 359px;
+    position: relative;
+    float: right;
+    right: 400px;
+    top: 170px;
+}
+
+.color-text {
+    color: #353A5A;
+}
+
+.join {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 120%;
+    margin: 0;
+}
+
+.join-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    position: relative;
+    top: 25px;
+}
+
+.sumbit_tarif {
+    position: relative;
+    top: 60px;  
+    display: flex;
+    max-width: 230px;
+    height: 56px;
+    background-color: #FA9F42;
+    align-items: center;
+    border-radius: 0px 20px;
+    justify-content: center;
+    vertical-align: middle;
+    transition: 0.2s;
+}
+
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    color: #353A5A;
+}
+
+.social {
+    display: flex;
+    gap: 25px
+}
+
+.border_fot {
+    box-sizing: border-box;
+    padding: 80px 0 50px 0;
+    width: 100%;
+    height: 100%;
+    border-top: #a8a8a8 1px solid;
+    border-bottom: 1px solid #a8a8a8;
+    margin-top: 120px;
+    padding: 70px 30px 50px 30px;
+}
+
+.footer__container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.fot_desc {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 47px;
+}
+
+.text_head {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.text_list {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text_list:last-child {
+    margin-bottom: 0;
+}
+
+.box11 {
+    margin: 0;
+    color: #353A5A;
+}
+
+.img_tg {
+    margin-bottom: 27px;
+}
+
+.footer_end {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.fot_cont {
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.tta:hover {
+    color: #FA9F42;
+}
+
+.tta {
+    text-decoration: none;
+    display: block;
+    color: #353A5A;
+}
+
+.block11 {
+    width: 150px;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.ll {
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    opacity: 1; /* изменение свойства opacity на 1 */
+}
